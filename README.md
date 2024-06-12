@@ -23,7 +23,7 @@ This project demonstrates the implementation of feature toggling using LaunchDar
 
 ### Prerequisites
 
-- [.NET 6](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [.NET 8](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Docker](https://www.docker.com/get-started)
 - [Consul](https://www.consul.io/downloads)
 - [LaunchDarkly](https://launchdarkly.com/)
