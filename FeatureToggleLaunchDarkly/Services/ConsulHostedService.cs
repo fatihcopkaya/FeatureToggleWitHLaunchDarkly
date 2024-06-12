@@ -28,7 +28,7 @@ namespace FeatureToggleLaunchDarkly.Services
         public async Task StartAsync(CancellationToken cancellationToken)
         {
             await InitialUpdateSettings(); // ilk başlatmada Consul'dan değerleri al
-            _timer = new Timer(UpdateSettings, null, TimeSpan.FromMinutes(5), TimeSpan.FromMinutes(5)); // her 5 dakikada bir çalışır
+            _timer = new Timer(UpdateSettings, null, TimeSpan.FromMinutes(5), TimeSpan.FromMinutes(5)); // her 5 dakikada bir consuldeki değerler değiştirilirse uygulamaya dahil etmek için çalış.
         }
 
         private async Task InitialUpdateSettings()

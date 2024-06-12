@@ -15,12 +15,12 @@ namespace FeatureToggleLaunchDarkly.Services
         {
             _ldClientProvider = ldClientProvider;
         }
-
+        //consuldeki flag değeri değişirse update edecek method
         public void UpdateFlagName(string flagName)
         {
             _flagName = flagName;
         }
-
+        // role için launchdarkly de belirttiğimiz flag ve segment değerlerine uygunsa true döndüren method
         public bool IsFeatureEnabled(string userKey, string role)
         {
             var user = Context.Builder(userKey)

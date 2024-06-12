@@ -11,7 +11,7 @@ namespace FeatureToggleLaunchDarkly.Services
         {
             return _ldClient;
         }
-
+        // consuldeki launchapi key değişirse update edecek method
         public void UpdateClient(string sdkKey)
         {
             lock (_lock)
