@@ -77,8 +77,7 @@ This project demonstrates the implementation of feature toggling using LaunchDar
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-repo/feature-toggle-launchdarkly.git
-    cd feature-toggle-launchdarkly
+    git clone https://github.com/your-repo/feature-toggle-launchdarkly.git](https://github.com/fatihcopkaya/FeatureToggleWitHLaunchDarkly.git
     ```
 
 2. Restore dependencies:
